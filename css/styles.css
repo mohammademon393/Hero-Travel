@@ -1,0 +1,76 @@
+/* header styels start */
+.header{
+    margin: 10px 20px;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    gap: 35px;
+}
+.nav img{
+    margin-top: 23px;
+}
+.nav h2{
+    font-size: 36px;
+    font-weight: bolder;
+    display: inline;
+}
+
+
+/* banner start */
+.banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    display: grid;
+    
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+}
+.banner div{
+    width: 780px;
+    height: 84px;
+    /* background: bisque; */
+    position: relative;
+    /* left: 250px; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: bolder;
+    margin-bottom: -140px;
+}
+.banner p{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: -50px;
+}
+
+.b-div2 input{
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+}
+.b-div2 select,button{
+    width: 170px;
+    height: 55px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.b-div2 button{
+    background-color: #FF5400;
+}
