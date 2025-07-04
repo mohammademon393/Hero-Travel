@@ -154,3 +154,15 @@
         text-align: center;
         align-items: center;
 }
+
+
+/* footer */
+.footer{
+    height: 450px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff1bacd;
+    margin-top: 30px;
+}
